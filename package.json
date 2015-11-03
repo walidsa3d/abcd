@@ -1,0 +1,17 @@
+{
+  "name": "abcd",
+  "version": "1.0.0",
+  "description": "a bunch of useful string constants",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "letters",
+    "numbers",
+    "punctuation",
+    "alphabet"
+  ],
+  "author": "Walid Saad",
+  "license": "MIT"
+}
