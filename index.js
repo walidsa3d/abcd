@@ -1,47 +1,26 @@
-const ascii_letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+module.exports = {
+  ascii_letters: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
-const ascii_lowercase = 'abcdefghijklmnopqrstuvwxyz'
+  ascii_lowercase: 'abcdefghijklmnopqrstuvwxyz',
 
-const ascii_uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  ascii_uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
-const digits = '0123456789'
+  digits: '0123456789',
 
-const hexdigits = '0123456789abcdefABCDEF'
+  hexdigits: '0123456789abcdefABCDEF',
 
-const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  letters: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
-const lowercase = 'abcdefghijklmnopqrstuvwxyz'
+  lowercase: 'abcdefghijklmnopqrstuvwxyz',
 
-const octdigits = '01234567'
+  octdigits: '01234567',
 
-const printable = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c'
+  printable: '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c',
 
-const punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
+  punctuation: '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~',
 
-const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+  uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
 
-const whitespace = '\t\n\x0b\x0c\r'
+  whitespace: '\t\n\x0b\x0c\r'
 
-module.exports.ascii_letters = ascii_letters
-
-module.exports.ascii_lowercase = ascii_lowercase
-
-module.exports.ascii_uppercase = ascii_uppercase
-
-module.exports.digits = digits
-
-module.exports.hexdigits = hexdigits
-
-module.exports.letters = letters
-
-module.exports.lowercase = lowercase
-
-module.exports.octdigits = octdigits
-
-module.exports.printable = printable
-
-module.exports.punctuation = punctuation
-
-module.exports.uppercase = uppercase
-
-module.exports.whitespace = whitespace
+}
