@@ -1,5 +1,25 @@
 # abcd
+![downloads](https://img.shields.io/npm/dm/abcd.svg)
+![version](https://img.shields.io/npm/v/abcd.svg)
+![license](https://img.shields.io/npm/l/abcd.svg)
+
 A bunch of useful string constants : alphabet, digits, punctuation..
+
+# Install
+```sh
+$ npm install abcd --save
+```
+
+# Usage
+```javascript
+var abcd = require('abcd')
+console.log(abcd.digits)
+//==> '0123456789'
+console.log(abcd.lowercase)
+//==> 'abcdefghijklmnopqrstuvwxyz'
+console.log(abcd.uppercase)
+//==> 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+```
 
 # License
 ```

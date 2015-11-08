@@ -1,9 +1,10 @@
 var assert = require('chai').assert
-var abc = require('../index.js')
+var abcd = require('../index.js')
 
-describe('check digit', function () {
-  it('check if integer', function (done) {
-    assert.equal(abc.digits, '0123456789')
+describe('some checks', function () {
+  it('check equality', function (done) {
+    assert.equal(abcd.digits, '0123456789')
+    assert.equal(abcd.lowercase, 'abcdefghijklmnopqrstuvwxyz')
     done()
   })
 })

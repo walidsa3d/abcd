@@ -1,6 +1,6 @@
 {
   "name": "abcd",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "a bunch of useful string constants",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   ],
   "author": "Walid Saad",
   "license": "MIT",
-    "devDependencies": {
+  "devDependencies": {
       "chai": "~1.10.0",
       "grunt-contrib-watch": "~0.5.3",
       "grunt-bump": "^0.6.0",
